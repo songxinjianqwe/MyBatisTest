@@ -1,5 +1,5 @@
 <ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="../config/ehcache.xsd">
+	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
 	<!-- 磁盘的存储路径 -->
 	<!-- 有一个临界值，如果超过了指定容量，那么写到硬盘的以下目录上 -->
 	<diskStore path="java.io.tmpdir" />

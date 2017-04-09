@@ -23,7 +23,7 @@
         </javaTypeResolver>
 
         <!-- 生成的POJO类所在的目录-->
-        <javaModelGenerator targetPackage="me.newsong.domain.entity" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="me.newsong.domain" targetProject="src/main/java">
             <!-- 是否对model添加 构造函数 -->
             <property name="constructorBased" value="true"/>
             <!-- 是否允许子包，即targetPackage.schemaName.tableName -->
@@ -32,12 +32,12 @@
             <property name="immutable" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
-
+        
         <!--Mapper映射文件生成所在的目录 为每一个数据库的表生成对应的SqlMap文件 -->
-        <sqlMapGenerator targetPackage="me.newsong.domain.mapper" targetProject="src/main/java">
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
-
+        <!--Mapper接口生成所在的目录-->
         <javaClientGenerator targetPackage="me.newsong.dao" targetProject="src/main/java" type="MIXEDMAPPER">
             <property name="enableSubPackages" value=""/>
             <property name="exampleMethodVisibility" value=""/>

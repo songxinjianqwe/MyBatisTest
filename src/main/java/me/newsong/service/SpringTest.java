@@ -1,24 +1,16 @@
 package me.newsong.service;
 
-import me.newsong.dao.iface.UserRepository;
-import org.junit.Before;
+import me.newsong.dao.UserMapper;
+import me.newsong.utils.BaseSpringTester;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.beans.factory.annotation.Autowired;
 
-public class SpringTest {
-	private ApplicationContext ctx;
-	private UserRepository dao;
-	
-	@Before
-	public void setUp() throws Exception {
-		ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-		dao = ctx.getBean(UserRepository.class);
-	}
-	
-	@Test
+public class SpringTest extends BaseSpringTester{
+	@Autowired
+    private UserMapper mapper;
+    @Test
 	public void test() {
-		dao.findByUsername("admin");
+        System.out.println(mapper.selectByPrimaryKey(1));
 	}
 	
 }
