@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mybatis@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="mybatis">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bookstore"/>
+    <schema id="4" parent="1" name="china"/>
+    <schema id="5" parent="1" name="cms"/>
+    <schema id="6" parent="1" name="hotelreservationsystem"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="jpa"/>
+    <schema id="9" parent="1" name="movies"/>
+    <schema id="10" parent="1" name="mysql"/>
+    <schema id="11" parent="1" name="oacp"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="restaurant"/>
+    <schema id="14" parent="1" name="restfulsample"/>
+    <schema id="15" parent="1" name="restfulsssp"/>
+    <schema id="16" parent="1" name="seniormysql"/>
+    <schema id="17" parent="1" name="springmvc"/>
+    <schema id="18" parent="1" name="stcss"/>
+    <schema id="19" parent="1" name="sys"/>
+    <schema id="20" parent="1" name="usermanagement"/>
+    <schema id="21" parent="1" name="world"/>
+    <table id="22" parent="2" name="user"/>
+    <table id="23" parent="2" name="user2"/>
+    <column id="24" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="22" name="user_name">
+      <Position>2</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="22" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="27" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="28" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>varchar(35)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="23" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="30" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

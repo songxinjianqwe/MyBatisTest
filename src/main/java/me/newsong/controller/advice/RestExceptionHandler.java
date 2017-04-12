@@ -1,11 +1,11 @@
 package me.newsong.controller.advice;
 
-import me.newsong.exceptions.domain.RESTError;
+import me.newsong.exception.domain.RESTError;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import me.newsong.exceptions.base.BaseRESTException;
+import me.newsong.exception.base.BaseRESTException;
 
 @ControllerAdvice
 public class RestExceptionHandler {
