@@ -9,23 +9,21 @@
 
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
           init-method="init" destroy-method="close">
-        <property name="driverClassName" value="${driver}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
         <property name="url"
-                  value="${url}"/>
-        <property name="username" value="${username}"/>
-        <property name="password" value="${password}"/>
-        <property name="initialSize" value="${initialSize}"/>
-        <property name="maxActive" value="${maxActive}"/>
-        <property name="minIdle" value="${minIdle}"/>
-        <property name="maxWait" value="${maxWait}"/>
+                  value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="initialSize" value="${jdbc.initialSize}"/>
+        <property name="maxActive" value="${jdbc.maxActive}"/>
+        <property name="minIdle" value="${jdbc.minIdle}"/>
+        <property name="maxWait" value="${jdbc.maxWait}"/>
         <property name="filters" value="${druid.filters}"/>
     </bean>
 
     <!-- MyBatis的Session工厂 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <!-- 配置扫描Domain的包路径 -->
-        <property name="typeAliasesPackage" value="me.newsong.domain"/>
         <!-- 配置mybatis配置文件的位置 -->
         <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
         <!-- 自动扫描mapping.xml文件 -->
@@ -37,5 +35,5 @@
         <property name="basePackage" value="me.newsong.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
-
+    
 </beans>

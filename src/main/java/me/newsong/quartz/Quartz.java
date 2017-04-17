@@ -1,7 +1,6 @@
 package me.newsong.quartz;
 
 
-import me.newsong.cache.RedisCacheManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -28,8 +27,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class Quartz {
     
-	@Autowired
-    private RedisCacheManager cache;
 	
 //	/**
 //	 * 用户自动加积分
