@@ -1,14 +1,13 @@
 package me.newsong.service;
 
-import me.newsong.domain.common.PageBean;
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageInfo;
 import me.newsong.domain.entity.EmployeeDO;
 
-import java.util.List;
-
 public interface EmployeeService {
-    List<EmployeeDO> findAllEmployees();
+
+    PageInfo<EmployeeDO> findAllEmployees(int pageNum, int pageSize);
     EmployeeDO findById(Integer id);
-    PageBean<EmployeeDO> findEmployees(int currPage, int pageSize); 
     void removeEmployee(Integer id);
     void updateEmployee(EmployeeDO employeeDO);
     void addEmployee(EmployeeDO employeeDO);

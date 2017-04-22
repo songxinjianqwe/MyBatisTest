@@ -478,21 +478,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/service/EmployeeService.java">
+      <file leaf-file-name="EmployeeDOMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/EmployeeDOMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="338">
+              <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/service/impl/EmployeeServiceImpl.java">
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="60" column="48" lean-forward="false" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+            <state relative-caret-position="303">
+              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentDOMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DepartmentDOMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <marker date="1492865511776" expanded="true" signature="1408:1518" ph="select from dept" />
+                <marker date="1492865511776" expanded="true" signature="1621:1716" ph="select from dept" />
+                <marker date="1492865511776" expanded="true" signature="1961:2019" ph="delete from " />
+                <marker date="1492865511776" expanded="true" signature="2267:2395" ph="insert into dept... " />
+                <marker date="1492865511776" expanded="true" signature="3539:3842" ph="update dept " />
+                <marker date="1492865511776" expanded="true" signature="4102:4234" ph="update dept " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/SpringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="161" column="5" lean-forward="true" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentDOMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/DepartmentDOMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="53" column="50" lean-forward="false" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentDO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/DepartmentDO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/enums/DeptStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptStatusTypeHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/handler/mybatis/DeptStatusTypeHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDOMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/UserDOMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -503,9 +594,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Aspect" />
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -540,16 +633,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/validator/Not999.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/validator/Not999Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/validation.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/quartz/BizQuartz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/security/http/HTTPSCoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/security/https/HTTPSCoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/security/coder/DESCoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/util/ConvertUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/util/InternationalizeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/util/MapUtil.java" />
@@ -560,11 +643,9 @@
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/controller/advice/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/dao/UserDOMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/UserDO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDOMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/dao/DepartmentDOMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/EmployeeDO.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/cache/Cached.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/aop/CacheAspect.aj" />
@@ -574,23 +655,35 @@
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/common/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/exception/PageOutOfBoundsException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/dao/EmployeeDOMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/quartz/Quartz.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/service/iface/EmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/cache/RedisCacheConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/common/PageBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/DepartmentDO.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/EmployeeDO.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/UserDO.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeDOMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/service/SpringTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/me/newsong/SpringTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/security/coder/DESUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/security/coder/AESUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/dao/DepartmentDOMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/dao/EmployeeDODynamicMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeDODynamicMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/generator.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/interceptor/mybatis/MyFirstPlugin.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeDOMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/dao/EmployeeDOMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/newsong/service/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/enum/DeptStatus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/DepartmentDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/enums/DeptStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/handler/mybatis/DeptStatusTypeHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/me/newsong/SpringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/DepartmentDOMapper.xml" />
       </list>
     </option>
   </component>
@@ -706,6 +799,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -902,139 +996,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1068,71 +1030,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBatisTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1141,15 +1042,18 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/idea/MyBatisTest/pom.xml" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MovieMiningServer" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\MyBatisTest\src\main\java\me\newsong\interceptor\mybatis" />
+      <recent name="D:\idea\MyBatisTest\src\main\java\me\newsong\security" />
+      <recent name="D:\idea\MyBatisTest\src\main\java\me\newsong\security\coder" />
+      <recent name="D:\idea\MyBatisTest\src\main\java\me\newsong\validator" />
       <recent name="D:\idea\MyBatisTest\src\main\resources" />
-      <recent name="D:\idea\MyBatisTest\src\main\resources\mybatis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="me.newsong.exception" />
@@ -1158,12 +1062,9 @@
       <recent name="me.newsong.quartz" />
       <recent name="me.newsong.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea\MyBatisTest\src\main\java\me\newsong\security" />
-      <recent name="D:\idea\MyBatisTest\src\main\java\me\newsong\security\coder" />
-      <recent name="D:\idea\MyBatisTest\src\main\java\me\newsong\validator" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\MyBatisTest\src\main\resources" />
-      <recent name="D:\idea\MyBatisTest\src\main\java\me\newsong\controller" />
+      <recent name="D:\idea\MyBatisTest\src\main\resources\mybatis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1178,8 +1079,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringTest.testCache2">
-    <configuration default="false" name="SpringTest.testEmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpringTest.testEnum">
+    <configuration default="false" name="SpringTest.testDynamicSQLForeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="me.newsong.*" />
@@ -1191,7 +1092,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="me.newsong" />
       <option name="MAIN_CLASS_NAME" value="me.newsong.SpringTest" />
-      <option name="METHOD_NAME" value="testEmp" />
+      <option name="METHOD_NAME" value="testDynamicSQLForeach" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1205,7 +1106,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SpringTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SpringTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="me.newsong.*" />
@@ -1217,7 +1118,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="me.newsong" />
       <option name="MAIN_CLASS_NAME" value="me.newsong.SpringTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1231,7 +1132,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SpringTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SpringTest.testDynamicSQLBind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="me.newsong.*" />
@@ -1243,7 +1144,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="me.newsong" />
       <option name="MAIN_CLASS_NAME" value="me.newsong.SpringTest" />
-      <option name="METHOD_NAME" value="testPage" />
+      <option name="METHOD_NAME" value="testDynamicSQLBind" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1257,7 +1158,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SpringTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SpringTest.testPage2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="me.newsong.*" />
@@ -1269,7 +1170,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="me.newsong" />
       <option name="MAIN_CLASS_NAME" value="me.newsong.SpringTest" />
-      <option name="METHOD_NAME" value="testCache" />
+      <option name="METHOD_NAME" value="testPage2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1283,7 +1184,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SpringTest.testCache2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SpringTest.testEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="me.newsong.*" />
@@ -1295,7 +1196,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="me.newsong" />
       <option name="MAIN_CLASS_NAME" value="me.newsong.SpringTest" />
-      <option name="METHOD_NAME" value="testCache2" />
+      <option name="METHOD_NAME" value="testEnum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1903,19 +1804,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.MyBatisGenerator" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.MyBatisTestServer" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTest.testEmp" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTest.test2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SpringTest.testPage" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SpringTest.testCache" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.SpringTest.testCache2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTest.testDynamicSQLForeach" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTest.testInsert" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SpringTest.testDynamicSQLBind" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.SpringTest.testPage2" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.SpringTest.testEnum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringTest.testCache2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringTest.testCache" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTest.testPage" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTest.test2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringTest.testEmp" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringTest.testEnum" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringTest.testPage2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTest.testDynamicSQLBind" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTest.testInsert" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringTest.testDynamicSQLForeach" />
       </list>
     </recent_temporary>
   </component>
@@ -1953,7 +1854,17 @@
       <workItem from="1492310213202" duration="57000" />
       <workItem from="1492355822643" duration="3378000" />
       <workItem from="1492407789550" duration="759000" />
-      <workItem from="1492421563490" duration="8569000" />
+      <workItem from="1492421563490" duration="9195000" />
+      <workItem from="1492442950196" duration="2096000" />
+      <workItem from="1492517934245" duration="12000" />
+      <workItem from="1492525077341" duration="4835000" />
+      <workItem from="1492590698368" duration="50000" />
+      <workItem from="1492613623043" duration="4013000" />
+      <workItem from="1492617864661" duration="121000" />
+      <workItem from="1492666928759" duration="595000" />
+      <workItem from="1492696682071" duration="5708000" />
+      <workItem from="1492787861541" duration="1513000" />
+      <workItem from="1492828238856" duration="10568000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis测试项目">
       <created>1491721419356</created>
@@ -1973,39 +1884,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringTest_testCache - 2017.04.17 at 19h 23m 55s.xml">
-      <configuration name="SpringTest.testCache" configurationId="JUnit" />
+    <history-entry file="SpringTest_testEnum - 2017.04.22 at 20h 29m 04s.xml">
+      <configuration name="SpringTest.testEnum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache - 2017.04.17 at 19h 25m 37s.xml">
-      <configuration name="SpringTest.testCache" configurationId="JUnit" />
+    <history-entry file="SpringTest_testEnum - 2017.04.22 at 20h 30m 41s.xml">
+      <configuration name="SpringTest.testEnum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache - 2017.04.17 at 19h 40m 37s.xml">
-      <configuration name="SpringTest.testCache" configurationId="JUnit" />
+    <history-entry file="SpringTest_testEnum - 2017.04.22 at 20h 31m 35s.xml">
+      <configuration name="SpringTest.testEnum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache - 2017.04.17 at 19h 41m 35s.xml">
-      <configuration name="SpringTest.testCache" configurationId="JUnit" />
+    <history-entry file="SpringTest_testEnum - 2017.04.22 at 20h 32m 47s.xml">
+      <configuration name="SpringTest.testEnum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache2 - 2017.04.17 at 19h 44m 34s.xml">
-      <configuration name="SpringTest.testCache2" configurationId="JUnit" />
+    <history-entry file="SpringTest_testEnum - 2017.04.22 at 20h 48m 42s.xml">
+      <configuration name="SpringTest.testEnum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache2 - 2017.04.17 at 19h 48m 38s.xml">
-      <configuration name="SpringTest.testCache2" configurationId="JUnit" />
+    <history-entry file="SpringTest_testEnum - 2017.04.22 at 20h 51m 08s.xml">
+      <configuration name="SpringTest.testEnum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache2 - 2017.04.17 at 19h 49m 50s.xml">
-      <configuration name="SpringTest.testCache2" configurationId="JUnit" />
+    <history-entry file="SpringTest_testEnum - 2017.04.22 at 20h 51m 38s.xml">
+      <configuration name="SpringTest.testEnum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache2 - 2017.04.17 at 19h 50m 37s.xml">
-      <configuration name="SpringTest.testCache2" configurationId="JUnit" />
+    <history-entry file="SpringTest_testPage2 - 2017.04.22 at 17h 27m 16s.xml">
+      <configuration name="SpringTest.testPage2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache2 - 2017.04.17 at 19h 56m 20s.xml">
-      <configuration name="SpringTest.testCache2" configurationId="JUnit" />
+    <history-entry file="SpringTest_testPage2 - 2017.04.22 at 17h 37m 21s.xml">
+      <configuration name="SpringTest.testPage2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_testCache2 - 2017.04.17 at 19h 57m 38s.xml">
-      <configuration name="SpringTest.testCache2" configurationId="JUnit" />
+    <history-entry file="SpringTest_testPage2 - 2017.04.22 at 19h 51m 56s.xml">
+      <configuration name="SpringTest.testPage2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79365000" />
+    <option name="totallyTimeSpent" value="109502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2034,7 +1945,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.640821" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2622577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49791667" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31470925" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2042,12 +1953,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15279362" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5085519" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.4938838" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28125" sideWeight="0.5061162" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2056,7 +1968,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20296465" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2076,7 +1987,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2085,87 +1996,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/validator/Not999Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/security/https/HTTPSCoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/security/https/HTTPSPKCSCoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/security/coder/SecurityCoder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/security/coder/DESCoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/util/BaseSpringTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/util/ConvertUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/util/InternationalizeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/util/MapUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/util/SpringContextUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/cache/Cached.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.8.9/aspectjrt-1.8.9.jar!/org/aspectj/lang/Signature.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -2177,81 +2007,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#3628#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/aop/CacheAspect.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/cache/CacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/aop/CacheAspect.aj" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/cache/CacheManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/cache/RedisCacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/generator.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/domain/common/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/cache/RedisCacheManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/domain/common/Page.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/aop/LoggingAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/DepartmentDOMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/UserDOMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2259,9 +2032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2269,7 +2039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2277,7 +2046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2295,41 +2063,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DepartmentDOMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-          <folding>
-            <marker date="1492424694941" expanded="true" signature="1041:1141" ph="select from dept" />
-            <marker date="1492424694941" expanded="true" signature="1358:1412" ph="delete from " />
-            <marker date="1492424694941" expanded="true" signature="1637:1735" ph="insert into dept... " />
-            <marker date="1492424694941" expanded="true" signature="2651:2820" ph="update dept " />
-            <marker date="1492424694941" expanded="true" signature="3057:3155" ph="update dept " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/EmployeeDOMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.1.RELEASE/spring-data-redis-1.8.1.RELEASE.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2337,7 +2074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2345,7 +2081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
           <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2353,7 +2088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="470" column="0" lean-forward="false" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2361,6 +2095,239 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/UserDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/util/ProtoStuffSerializerUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/security/coder/DESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/security/coder/AESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/EmployeeDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/validator/Not999.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/generator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="247" column="20" lean-forward="true" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/interceptor/mybatis/MyFirstPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/PageInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0-sources.jar!/com/github/pagehelper/PageInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="154" column="48" lean-forward="false" selection-start-line="154" selection-start-column="48" selection-end-line="154" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/EmployeeDODynamicMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="179" column="32" lean-forward="false" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="32" />
+          <folding>
+            <marker date="1492852319172" expanded="true" signature="3037:3104" ph="select from emp" />
+            <marker date="1492852319172" expanded="true" signature="3037:3129" ph="select from emp" />
+            <marker date="1492852319172" expanded="true" signature="3037:3130" ph="select from emp" />
+            <marker date="1492852319172" expanded="true" signature="3297:3394" ph="select from emp" />
+            <marker date="1492852319172" expanded="true" signature="3564:3661" ph="select from emp" />
+            <marker date="1492852319172" expanded="true" signature="3740:3836" ph="select from emp" />
+            <marker date="1492852319172" expanded="true" signature="4077:4134" ph="delete from " />
+            <marker date="1492852319172" expanded="true" signature="4380:4564" ph="insert into emp... " />
+            <marker date="1492852319172" expanded="true" signature="5968:6380" ph="update emp l... " />
+            <marker date="1492852319172" expanded="true" signature="6638:6828" ph="update emp s... " />
+            <marker date="1492852319172" expanded="true" signature="6842:7095" ph="..." />
+            <marker date="1492852319172" expanded="true" signature="6913:6980" ph="SELECT from emp" />
+            <marker date="1492852319172" expanded="true" signature="7048:7072" ph="select count... emp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0-sources.jar!/com/github/pagehelper/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="77" column="11" lean-forward="true" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0-sources.jar!/com/github/pagehelper/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeDODynamicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <marker date="1492702835187" expanded="true" signature="874:941" ph="select from emp" />
+            <marker date="1492702835187" expanded="true" signature="874:1004" ph="select from emp" />
+            <marker date="1492702835187" expanded="true" signature="874:1337" ph="select from emp" />
+            <marker date="1492702835187" expanded="true" signature="1418:1485" ph="select from emp" />
+            <marker date="1492702835187" expanded="true" signature="2013:2080" ph="select from emp" />
+            <marker date="1492702835187" expanded="true" signature="2563:3178" ph="update emp s... " />
+            <marker date="1492702835187" expanded="true" signature="3257:3344" ph="select from emp" />
+            <marker date="1492702835187" expanded="true" signature="3523:3593" ph="insert into emp... " />
+            <marker date="1492702835187" expanded="true" signature="3942:4038" ph="select where... " />
+            <marker date="1492702835187" expanded="true" signature="3942:4050" ph="select where... " />
+            <marker date="1492702835187" expanded="true" signature="3942:4051" ph="select where... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/EmployeeDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/enum/DeptStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/UserDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/enum/DeptStatus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/enums/DeptStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2369,126 +2336,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/DepartmentDO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="216">
+          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/EmployeeDO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/dao/DepartmentDOMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="623">
+          <caret line="53" column="50" lean-forward="false" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/domain/entity/UserDO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/handler/mybatis/DeptStatusTypeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeDOMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="140" column="41" lean-forward="false" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
+        <state relative-caret-position="336">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="34" />
           <folding>
-            <marker date="1492429776506" expanded="true" signature="2131:2198" ph="select from emp" />
-            <marker date="1492429776506" expanded="true" signature="2131:2199" ph="select from emp" />
-            <marker date="1492429776506" expanded="true" signature="2524:2605" ph="select from emp" />
-            <marker date="1492429776506" expanded="true" signature="2860:2917" ph="delete from " />
-            <marker date="1492429776506" expanded="true" signature="3163:3347" ph="insert into emp... " />
-            <marker date="1492429776506" expanded="true" signature="4751:5163" ph="update emp l... " />
-            <marker date="1492429776506" expanded="true" signature="5421:5611" ph="update emp s... " />
-            <marker date="1492429776506" expanded="true" signature="5696:5763" ph="SELECT from emp" />
-            <marker date="1492429776506" expanded="true" signature="5776:6089" ph="..." />
-            <marker date="1492429776506" expanded="true" signature="5855:5922" ph="select from emp" />
-            <marker date="1492429776506" expanded="true" signature="5855:5970" ph="select from emp" />
-            <marker date="1492429776506" expanded="true" signature="6042:6066" ph="select count... emp" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="235" column="7" lean-forward="false" selection-start-line="235" selection-start-column="7" selection-end-line="235" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        <state relative-caret-position="312">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/SpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state relative-caret-position="129">
+          <caret line="161" column="5" lean-forward="true" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/util/ProtoStuffSerializerUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DepartmentDOMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/newsong/service/impl/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="60" column="48" lean-forward="false" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="216">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <marker date="1492865511776" expanded="true" signature="1408:1518" ph="select from dept" />
+            <marker date="1492865511776" expanded="true" signature="1621:1716" ph="select from dept" />
+            <marker date="1492865511776" expanded="true" signature="1961:2019" ph="delete from " />
+            <marker date="1492865511776" expanded="true" signature="2267:2395" ph="insert into dept... " />
+            <marker date="1492865511776" expanded="true" signature="3539:3842" ph="update dept " />
+            <marker date="1492865511776" expanded="true" signature="4102:4234" ph="update dept " />
+          </folding>
         </state>
       </provider>
     </entry>

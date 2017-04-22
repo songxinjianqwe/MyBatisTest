@@ -50,4 +50,6 @@ public interface DepartmentDOMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(DepartmentDO record);
+    
+    DepartmentDO findDeptByIdWithEmps(Integer id);
 }

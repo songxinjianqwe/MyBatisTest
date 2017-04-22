@@ -35,5 +35,5 @@
         <property name="basePackage" value="me.newsong.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
-    
+
 </beans>

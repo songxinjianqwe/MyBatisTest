@@ -18,8 +18,8 @@ import java.security.spec.InvalidKeySpecException;
  * @version 1.0
  * @since 1.0
  */
-public  class DESCoder {
-    private DESCoder(){}
+public  class DESUtil {
+    private DESUtil(){}
 	/**
 	 * 密钥算法 <br>
 	 * Java 6 只支持56bit密钥 <br>

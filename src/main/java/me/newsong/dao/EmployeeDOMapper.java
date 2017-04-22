@@ -1,7 +1,8 @@
 package me.newsong.dao;
 
-import me.newsong.domain.common.PageBean;
+import com.github.pagehelper.Page;
 import me.newsong.domain.entity.EmployeeDO;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -53,8 +54,9 @@ public interface EmployeeDOMapper  {
      * @mbggenerated
      */
     int updateByPrimaryKey(EmployeeDO record);
-    List<EmployeeDO> findAllEmployees();
-    
-    List<EmployeeDO> findEmployeesByPage(PageBean<EmployeeDO> page);
+    Page<EmployeeDO> findAllEmployees(@Param("pageNum") int pageNum, @Param("pageSize") int pageSize);
     int getCount();
+    EmployeeDO findCascadeById(Integer id);
+    List<EmployeeDO> findByDept(Integer id);
+    EmployeeDO findDiscriminatorById(Integer id);
 }

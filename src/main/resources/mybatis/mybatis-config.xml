@@ -3,12 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+
     <settings>
         <!--缓存 -->
         <setting name="cacheEnabled" value="false"/>
         <!--延迟加载-->
         <setting name="lazyLoadingEnabled" value="true"/>
-        <!--立即加载-->
+        <!--侵入延迟加载， 当启用时,有延迟加载属性的对象在被调用时将会完全加载任意属性。否则,每种属性将会按需要加载。-->
         <setting name="aggressiveLazyLoading" value="false"/>
         <setting name="localCacheScope" value="STATEMENT"/>
         <setting name="multipleResultSetsEnabled" value="true"/>
@@ -22,4 +23,23 @@
         <!-- 指定日志输出器 -->
         <setting name="logImpl" value="LOG4J"/>
     </settings>
+    
+    <typeHandlers>
+        <typeHandler handler="me.newsong.handler.mybatis.DeptStatusTypeHandler"
+                     javaType="me.newsong.enums.DeptStatus"></typeHandler>
+    </typeHandlers>
+    
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="offsetAsPageNum" value="false"/>
+            <property name="rowBoundsWithCount" value="false"/>
+            <property name="pageSizeZero" value="true"/>
+            <property name="reasonable" value="true"/>
+            <property name="supportMethodsArguments" value="true"/>
+            <property name="returnPageInfo" value="always"/>
+            <property name="autoRuntimeDialect" value="true"/>
+        </plugin>
+    </plugins>
+
 </configuration>

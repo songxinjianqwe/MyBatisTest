@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.newsong.dao.EmployeeDODynamicMapper">
+
+    <resultMap id="BaseResultMap" type="me.newsong.domain.entity.EmployeeDO">
+        <constructor>
+            <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+            <arg column="last_name" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="gender" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="email" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        </constructor>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, last_name, gender, email
+    </sql>
+
+    <!--List<EmployeeDO> findByEmp(EmployeeDO emp)-->
+    <select id="findByEmp" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from emp
+        <!--使用where标签：即使没有id属性，那么最开始的and不会被加入到SQL中-->
+        <where>
+            <if test="id != null">
+                id = #{id}
+            </if>
+            <if test="lastName != null and lastName != &quot;&quot;">
+                and last_name = #{lastName}
+            </if>
+            <if test="gender != null">
+                and gender = #{gender}
+            </if>
+        </where>
+    </select>
+
+    <select id="findByEmpTrim" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from emp
+        <trim prefix="where" suffixOverrides="and">
+            <if test="id != null">
+                id = #{id} and
+            </if>
+            <if test="lastName != null and lastName != &quot;&quot;">
+                last_name = #{lastName} and
+            </if>
+            <if test="gender != null">
+                gender = #{gender} and
+            </if>
+        </trim>
+    </select>
+
+    <!--List<EmployeeDO> findByEmpOneField(EmployeeDO emp)-->
+    <select id="findByEmpOneField" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from emp
+        <where>
+            <choose>
+                <when test="id != null">
+                    id = #{id}
+                </when>
+                <when test="lastName != null">
+                    last_name = #{lastName}
+                </when>
+                <otherwise>
+                    1 = 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <update id="updateByPrimaryKey" parameterType="me.newsong.domain.entity.EmployeeDO">
+        update emp
+        <set>
+            <if test="lastName != null">
+                last_name = #{lastName,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                email = #{email,jdbcType=VARCHAR}
+            </if>
+        </set>
+        <!--<trim prefix="set" suffixOverrides=",">-->
+        <!--<if test="lastName != null">-->
+        <!--last_name = #{lastName,jdbcType=VARCHAR},-->
+        <!--</if>-->
+        <!--<if test="email != null">-->
+        <!--email = #{email,jdbcType=VARCHAR}-->
+        <!--</if>-->
+        <!--</trim>-->
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+
+    <select id="findByIds" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from emp
+        where id in
+        <foreach collection="ids" open="(" close=")" item="item_id" separator=",">
+            #{item_id}
+        </foreach>
+    </select>
+
+    <insert id="insertBatch">
+        insert into emp (last_name, gender,
+        email,dept)
+        values
+        <foreach collection="emps" item="emp" separator=",">
+            (#{emp.lastName}, #{emp.gender},#{emp.email},#{emp.dept.id})
+        </foreach>
+    </insert>
+
+    <select id="findByLastNameContains" resultMap="BaseResultMap">
+        <!--name是绑定后的变量名，value是描述这个变量是如何构造的-->
+        <bind name="_LastName" value="'%'+lastName+'%'"/>
+        select
+        <include refid="Base_Column_List"/>
+        from emp
+        where last_name like #{_LastName}
+    </select>
+</mapper>
